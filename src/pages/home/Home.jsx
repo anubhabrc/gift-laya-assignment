@@ -101,7 +101,7 @@ const Home = () => {
     <div className="pt-[145px] md:pt-[110px] w-full">
       <div className="w-[90%] mx-auto">
         {/* Product showcase */}
-        <div className="flex flex-col md:flex-row relative mb-5">
+        <div className="flex flex-col md:flex-row relative mb-5 md:gap-10">
           {/* Breadcrumb and image showcase */}
           <div className="flex flex-col md:w-[50%] md:sticky md:top-[110px] md:h-[calc(100vh-110px)]">
             {/* Breadcrumb */}

@@ -4,6 +4,8 @@ import Img2 from "../../../assets/ImagesForViewer/Img2.png";
 import Img3 from "../../../assets/ImagesForViewer/Img3.png";
 import Img4 from "../../../assets/ImagesForViewer/Img4.png";
 import Img5 from "../../../assets/ImagesForViewer/Img5.png";
+import { Heart, Share2 } from "lucide-react";
+
 //CommonImagePool
 
 const images = [
@@ -142,6 +144,12 @@ const ImageViewer = () => {
                     className="w-full h-full object-cover"
                     draggable="false"
                   />
+                  <span className="absolute top-3  right-3 bg-gray-50 p-1 rounded-full">
+                    <Heart className="h-6 w-6 text-primaryAccentColor" />
+                  </span>
+                  <span className="absolute top-14  right-3 bg-gray-50 p-1 rounded-full">
+                    <Share2 className="h-6 w-6" />
+                  </span>
                 </div>
               ))}
             </div>
