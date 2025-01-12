@@ -472,7 +472,7 @@ const Home = () => {
         </div>
       </div>
       {/* Footer Design */}
-      <div className="w-[90%] mx-auto mt-24 mb-24 border-b border-gray-300">
+      <div className="w-[90%] mx-auto mt-32 mb-24 border-b border-gray-300">
         <Footer />
       </div>
     </div>
