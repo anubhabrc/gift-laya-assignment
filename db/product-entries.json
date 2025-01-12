@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "ProductName": "Black Gold Birthday Decor",
+      "OldPrice": 1599.0,
+      "NewPrice": 1299.0,
+      "PercentageOff": 18.76,
+      "Rating": 4,
+      "ProductDetails": "A hassle-free decoration service where our team comes to your location and sets up personalized decor for any occasion, such as birthdays, anniversaries, or proposals. The package includes balloon decorations on the ceiling and around the room, foil banners, age-specific number balloons, frill ribbons, and additional decorative props. Custom themes can be arranged based on your preferences."
+    },
+    {
+      "ProductName": "Elegant Anniversary Room Decor",
+      "OldPrice": 1800.0,
+      "NewPrice": 1450.0,
+      "PercentageOff": 19.44,
+      "Rating": 5,
+      "ProductDetails": "Our elegant anniversary decoration package includes romantic lighting, floral garlands, helium balloons, heart-shaped foil banners, and candles. Perfect for creating a memorable and cozy ambiance for couples celebrating a special day."
+    },
+    {
+      "ProductName": "Kids Party Theme Decor",
+      "OldPrice": 1700.0,
+      "NewPrice": 1390.0,
+      "PercentageOff": 18.24,
+      "Rating": 4.5,
+      "ProductDetails": "Transform your space into a fun-filled kids' party with colorful balloon arches, cartoon character cutouts, themed banners, and fun props. Custom themes such as superheroes, princesses, or animals are available."
+    },
+    {
+      "ProductName": "Proposal Setup Decor",
+      "OldPrice": 2000.0,
+      "NewPrice": 1600.0,
+      "PercentageOff": 20.0,
+      "Rating": 4.8,
+      "ProductDetails": "Create the perfect romantic ambiance for your proposal with our specialized decor service. Includes LED lights, heart-shaped balloons, rose petals, and customized props. We ensure everything is perfect for your big moment."
+    },
+    {
+      "ProductName": "Festive Home Decor",
+      "OldPrice": 1500.0,
+      "NewPrice": 1200.0,
+      "PercentageOff": 20.0,
+      "Rating": 4.3,
+      "ProductDetails": "Decorate your home for festivals with our vibrant decor package that includes colorful paper lanterns, hanging decorations, fairy lights, and floral garlands. Perfect for festivals like Diwali, Christmas, or Eid."
+    },
+    {
+      "ProductName": "Wedding Reception Hall Decor",
+      "OldPrice": 2000.0,
+      "NewPrice": 1750.0,
+      "PercentageOff": 12.5,
+      "Rating": 5,
+      "ProductDetails": "A grand decoration service for wedding receptions, featuring floral backdrops, stage decoration, table centerpieces, and elegant drapery. Customize the decor according to your wedding theme for a magical experience."
+    },
+    {
+      "ProductName": "Baby Shower Decoration",
+      "OldPrice": 1600.0,
+      "NewPrice": 1300.0,
+      "PercentageOff": 18.75,
+      "Rating": 4.7,
+      "ProductDetails": "Celebrate the arrival of your little one with our baby shower decoration package, including pastel-colored balloons, themed banners, and props for photoshoots. We also provide personalized name cutouts."
+    },
+    {
+      "ProductName": "Corporate Event Decor",
+      "OldPrice": 1900.0,
+      "NewPrice": 1550.0,
+      "PercentageOff": 18.42,
+      "Rating": 4.5,
+      "ProductDetails": "Make your corporate events more professional and vibrant with our decor service, featuring balloon arches, welcome banners, stage decor, and branded backdrops. Suitable for product launches and annual gatherings."
+    },
+    {
+      "ProductName": "Housewarming Party Decor",
+      "OldPrice": 1400.0,
+      "NewPrice": 1100.0,
+      "PercentageOff": 21.43,
+      "Rating": 4.2,
+      "ProductDetails": "Welcome your friends and family to your new home with our housewarming party decoration package, including flower arrangements, colorful drapes, and hanging decorations to brighten up your space."
+    },
+    {
+      "ProductName": "Graduation Celebration Decor",
+      "OldPrice": 1700.0,
+      "NewPrice": 1350.0,
+      "PercentageOff": 20.59,
+      "Rating": 4.6,
+      "ProductDetails": "Celebrate your graduation with our custom decor package, including graduation cap balloons, photo props, congratulatory banners, and table decorations. We ensure a fun and memorable setup for your big achievement."
+    }
+  ]
+}

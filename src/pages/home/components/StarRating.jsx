@@ -36,7 +36,7 @@ const StarRating = ({ rating, size }) => {
   };
 
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-1">
       <div className="flex items-center gap-1">
         {[1, 2, 3, 4, 5].map((position) => (
           <div key={position} className="relative">

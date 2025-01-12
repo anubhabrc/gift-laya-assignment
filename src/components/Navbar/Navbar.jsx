@@ -17,6 +17,7 @@ import {
 import logo from "../../assets/logo.png";
 import SearchBox from "./components/SearchBox";
 import ShoppingCartWithBadge from "./components/ShoppingCartWithBadge";
+import { useCartStore } from "../../store/useCartStore";
 
 const MenuItem = ({ icon: Icon, text }) => {
   return (
@@ -32,6 +33,7 @@ const MenuItem = ({ icon: Icon, text }) => {
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [exitDirection, setExitDirection] = useState(false);
+  const { cartValue } = useCartStore();
 
   const toggleSidebar = () => {
     if (!isOpen) {
@@ -59,7 +61,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="Balloon Decor"
-              className="h-8 md:h-6 w-auto object-contain"
+              className="h-8 md:h-6 w-auto object-contain cursor-pointer"
             />
           </div>
           {/* Location Selector */}
@@ -86,11 +88,11 @@ const Navbar = () => {
             <CircleUserRound className="h-5 w-5 hover:text-gray-700" />
             <span className="font-medium">Account</span>
           </button>
-          <button className="bg-shoppingCartGreen flex items-center gap-2 text-white transition-colors py-2 px-4 rounded-lg">
+          <button className="bg-shoppingCartGreen hover:bg-green-800 flex items-center gap-2 text-white transition-colors py-2 px-4 rounded-lg">
             <ShoppingCart className="h-5 w-5" />
             <div className="flex gap-1">
               <span className="font-medium text-lg">₹0.00</span>
-              <span className="font-medium text-lg">(0)</span>
+              <span className="font-medium text-lg">{`(${cartValue})`}</span>
             </div>
           </button>
         </div>
@@ -111,7 +113,7 @@ const Navbar = () => {
               className="h-7 w-auto object-contain"
             />
           </div>
-          <ShoppingCartWithBadge />
+          <ShoppingCartWithBadge itemCount={cartValue} />
         </div>
         <div className="w-[99%] mx-auto md:hidden">
           <SearchBox />
