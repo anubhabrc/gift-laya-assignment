@@ -16,7 +16,7 @@ const socialMediaIcons = [
 const Footer = () => {
   return (
     <div className="w-full">
-      <div className="w-[95%] md:w-[100%] mx-auto flex flex-col md:flex-row gap-20 md:justify-between mb-10">
+      <div className="w-[95%] md:w-[100%] mx-auto flex flex-col-reverse md:flex-row gap-20 md:justify-between mb-10">
         <div>
           <div className="mb-4">
             <img
@@ -48,39 +48,39 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col mb-5 md:mb-0">
             <span className="text-sm">Copyright © 2025 giftlaya.com</span>
             <span className="text-sm">All rights reserved.</span>
           </div>
         </div>
         <div className="flex flex-col md:flex-row gap-14 md:gap-20">
           <div>
-            <span className="font-medium text-lg">Specials</span>
+            <span className="text-2xl md:text-2xl">Specials</span>
             <div>
-              <p className="my-2 text-gray-600">Ring Platter</p>
-              <p className="my-2 text-gray-600">Hampers</p>
-              <p className="my-2 text-gray-600">Gift Trays</p>
-              <p className="my-2 text-gray-600">Corporate</p>
-              <p className="my-2 text-gray-600">Plants</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Ring Platter</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Hampers</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Gift Trays</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Corporate</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Plants</p>
             </div>
           </div>
           <div>
-            <span className="font-medium text-lg">Info</span>
+            <span className="text-2xl md:text-2xl">Info</span>
             <div className="">
-              <p className="my-2 text-gray-600">About Us</p>
-              <p className="my-2 text-gray-600">Latest Blogs</p>
-              <p className="my-2 text-gray-600">Contact Us</p>
-              <p className="my-2 text-gray-600">Vendor</p>
-              <p className="my-2 text-gray-600">Sitemap</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">About Us</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Latest Blogs</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Contact Us</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Vendor</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Sitemap</p>
             </div>
           </div>
           <div>
-            <span className="font-medium text-lg">Policies</span>
+            <span className="text-2xl md:text-2xl">Policies</span>
             <div className="">
-              <p className="my-2 text-gray-600">Terms & Conditions</p>
-              <p className="my-2 text-gray-600">Privacy Policy</p>
-              <p className="my-2 text-gray-600">Disclaimers</p>
-              <p className="my-2 text-gray-600">Shipping Policy</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Terms & Conditions</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Privacy Policy</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Disclaimers</p>
+              <p className="my-2 text-lg md:text-base text-gray-600">Shipping Policy</p>
             </div>
           </div>
         </div>
