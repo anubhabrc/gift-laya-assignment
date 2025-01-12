@@ -89,6 +89,12 @@ const Home = () => {
     container.scrollBy({ left: scrollAmount, behavior: "smooth" });
   };
 
+  const handleScroll2 = (direction) => {
+    const container = document.getElementById("slider-container-2");
+    const scrollAmount = direction === "left" ? -300 : 300;
+    container.scrollBy({ left: scrollAmount, behavior: "smooth" });
+  };
+
   const imageArray = [Img1, Img2, Img3, Img4, Img5, Img6, Img7];
 
   return (
@@ -429,7 +435,7 @@ const Home = () => {
 
           <div className="relative w-full">
             <button
-              onClick={() => handleScroll("left")}
+              onClick={() => handleScroll2("left")}
               className="hidden md:block absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 p-2 rounded-full shadow-lg"
               aria-label="Previous"
             >
@@ -437,7 +443,7 @@ const Home = () => {
             </button>
 
             <button
-              onClick={() => handleScroll("right")}
+              onClick={() => handleScroll2("right")}
               className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/80 p-2 rounded-full shadow-lg"
               aria-label="Next"
             >
@@ -445,7 +451,7 @@ const Home = () => {
             </button>
 
             <div
-              id="slider-container"
+              id="slider-container-2"
               className="flex gap-4 md:gap-7 overflow-x-auto scroll-smooth"
               style={{
                 scrollbarWidth: "none",
