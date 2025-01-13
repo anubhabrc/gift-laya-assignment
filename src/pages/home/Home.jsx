@@ -226,6 +226,7 @@ const Home = () => {
               </div>
             </div>
             {/* Choose Product Variant */}
+
             <div className="flex flex-col gap-2 mb-6">
               <span className="font-semibold text-sm">Choose Variants</span>
               <div className="flex items-center justify-between px-2 py-1 gap-4 border border-gray-300 rounded-md">
@@ -235,6 +236,7 @@ const Home = () => {
                 <ChevronDown className="text-gray-500" />
               </div>
             </div>
+
             {/* Add to cart and Buy now buttons */}
             <div className="w-full flex flex-col md:flex-row gap-3 mb-10">
               <button
@@ -478,7 +480,7 @@ const Home = () => {
         </div>
       </div>
       {/* Footer Design */}
-      <div className="w-[90%] mx-auto mt-32 mb-16 border-b border-gray-300">
+      <div className="w-[90%] mx-auto mt-48 mb-16 border-b border-gray-300">
         <Footer />
       </div>
     </div>

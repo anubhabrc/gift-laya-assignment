@@ -18,6 +18,7 @@ import logo from "../../assets/logo.png";
 import SearchBox from "./components/SearchBox";
 import ShoppingCartWithBadge from "./components/ShoppingCartWithBadge";
 import { useCartStore } from "../../store/useCartStore";
+import LocationSelector from "../LocationSelector";
 
 const MenuItem = ({ icon: Icon, text }) => {
   return (
@@ -65,16 +66,7 @@ const Navbar = () => {
             />
           </div>
           {/* Location Selector */}
-          <div className="flex items-center gap-2 px-4 py-2 bg-gray-50 md:bg-white rounded-lg cursor-pointer hover:bg-gray-100 transition-colors">
-            <Truck className="text-gray-600 h-5 w-5 md:hidden" />
-            <div className="flex flex-col">
-              <p className="text-xs text-gray-500">For delivery</p>
-              <div className="flex items-center gap-1">
-                <p className="text-sm font-medium">Set Location</p>
-                <ChevronDown className="h-4 w-4 text-gray-700" />
-              </div>
-            </div>
-          </div>
+          <LocationSelector />
         </div>
 
         {/* Search Bar */}
